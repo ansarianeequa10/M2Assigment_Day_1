@@ -1,0 +1,10 @@
+// Import the OS module
+const os = require('os');
+
+// Welcome message
+console.log("Welcome to WebTeam Node.js Internship!");
+
+// System information
+console.log("Platform:", os.platform());
+console.log("CPU Architecture:", os.arch());
+console.log("Free Memory (in MB):", (os.freemem() / (1024 * 1024)).toFixed(2));
